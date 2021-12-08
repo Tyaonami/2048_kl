@@ -43,3 +43,35 @@ html, body{
         border-radius: 2vmin;
         font-size: 10vmin;
     }
+
+    .game .field .cell[data-back="2"]{
+        background-color: wheat;
+    }
+    .game .field .cell[data-back="4"]{
+        background-color: powderblue;
+    }
+    .game .field .cell[data-back="8"]{
+        background-color: palegoldenrod;
+    }
+    .game .field .cell[data-back="16"]{
+        background-color: aquamarine;
+    }
+    .game .field .cell[data-back="32"]{
+        background-color: khaki;
+    }
+    .game .field .cell[data-back="64"]{
+        background-color: lavender;
+    }
+    .game .field .cell[data-back="128"]{
+        background-color:rosybrown;
+    }
+    .game .field .cell[data-back="256"]{
+        background-color: sandybrown;
+    }
+    .game .field .cell[data-back="512"]{
+        background-color: salmon;
+    }
+    .game .field .cell[data-back="2048"]{
+        background-color: tomato;
+    }
+    
